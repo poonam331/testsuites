@@ -2,6 +2,7 @@ import unittest
 
 class LoginTest(unittest.TestCase):
     def test_LoginByEmail(self):
+        print('This is not Github')
         print('This is login by test')
         self.assertTrue(True)
     
